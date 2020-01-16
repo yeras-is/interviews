@@ -25,15 +25,13 @@ public class MagicSquare {
         String word = scanner.next();
         char msg[] = word.toCharArray();
 
-        for (int i = 0; i <= msg.length - 1; i++) {
+        for (int i = 0; i <= msg.length - 1; i++)
             addChar(i + 1, msg[i]);
-        }
 
         StringBuilder builder = new StringBuilder();
 
-        for (int q = 0; q < cipher.length - 1; q++) {
+        for (int q = 0; q < cipher.length - 1; q++)
             builder.append(cipher[q]);
-        }
 
         System.out.println("Зашифрованное сообщение: " + builder.toString());
     }
