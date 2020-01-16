@@ -11,7 +11,7 @@ public class isEqualsFalse {
     StringBuilder b1 = new StringBuilder("hello");
     StringBuilder b2 = new StringBuilder("hello");
 
-    System.out.println(string==b1);
+//    System.out.println(string==b1);
     System.out.println(string.equals(b1));
     System.out.println(b1.equals(b2));
   }

@@ -1,11 +1,11 @@
 package kotlinExmpl
 
 class Person {
-    var firstName: String
-    var lastName: String
-    var age: Int
+    private var firstName: String
+    private var lastName: String
+    private var age: Int
     private var role: String
-    var attr: List<String>
+    private var attr: List<String>
 
     constructor(firstName: String, lastName: String, age: Int, role: String, attr: List<String>) {
         this.lastName = lastName
