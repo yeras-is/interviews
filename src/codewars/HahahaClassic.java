@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class HahahaClassic {
     public static void main(String[] args) {
-       Test2();
+        Test3();
     }
 
 
@@ -36,7 +36,7 @@ public class HahahaClassic {
         int a = scanner.nextInt();
         System.out.println("enter the hiest border >=0");
         int b = scanner.nextInt();
-        if ((1<=a && a<=b && b<=Math.pow(10,6))){
+        if (!(1<=a && a<=b && b<=Math.pow(10,6))){
             System.out.println(-1);
             return;
         }
