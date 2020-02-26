@@ -1,6 +1,5 @@
 package cipher;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class MagicSquare {
@@ -37,17 +36,15 @@ public class MagicSquare {
     }
 
     static void addChar(int index, char ch) {
-        boolean found = false;
 
+        mainLoop:
         for (int i = 0; i <= square.length - 1; i++) {
             for (int j = 0; j <= square[i].length - 1; j++) {
                 if (square[i][j] == index) {
                     cipher[i][j] = ch;
-                    found = true;
-                    break;
+                    break mainLoop;
                 }
             }
-            if (found) break;
         }
     }
 
