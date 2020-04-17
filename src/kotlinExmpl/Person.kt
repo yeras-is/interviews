@@ -1,19 +1,7 @@
 package kotlinExmpl
 
-class Person {
-    private var firstName: String
-    private var lastName: String
-    private var age: Int
-    private var role: String
-    private var attr: List<String>
-
-    constructor(firstName: String, lastName: String, age: Int, role: String, attr: List<String>) {
-        this.lastName = lastName
-        this.age = age
-        this.role = role
-        this.attr = attr
-        this.firstName = firstName.capitalize()
-    }
+class Person(firstName: String, private var lastName: String, private var age: Int, private var role: String, private var attr: List<String>) {
+    private var firstName: String = firstName.capitalize()
 
     fun setRole(role:String){
         this.role=role;

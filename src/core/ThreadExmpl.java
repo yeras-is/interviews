@@ -26,15 +26,4 @@ public class ThreadExmpl {
 
   }
 
-/*  public static void main(String[] args) {
-    new Object().notify();
-
-  }*/
-
-/*
-  public static void main(String[] args) {
-
-  }
-*/
-
 }
