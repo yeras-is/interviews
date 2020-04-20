@@ -7,11 +7,14 @@ public class OopLab {
 
     public static void main(String[] args) {
         System.out.println("yeras-is");
+        count_is_positive_changed_times();
+        hz_not_remember();
         sort_matrix_main_diagonal_asc();
         transform_matfix_by_clock_moving();
     }
 
     static void count_is_positive_changed_times() {
+        System.out.println("\n count_is_positive_changed_times");
         int[] answers = new Random().ints(15, -100, 100).toArray();
         int count = 0;
         boolean isPos = answers[0] >= 0;
@@ -31,6 +34,7 @@ public class OopLab {
     }
 
     static void hz_not_remember() {
+        System.out.println("\n hz_not_remember");
         double x = 1;
         double step = 0.01;
         int counter = 0;
@@ -54,7 +58,7 @@ public class OopLab {
     }
 
     static void sort_matrix_main_diagonal_asc() {
-        System.out.println("sort_matrix_main_diagonal_asc");
+        System.out.println("\n sort_matrix_main_diagonal_asc");
         int n = 5;
         System.out.println("До сортировки");
 
@@ -100,7 +104,7 @@ public class OopLab {
     }
 
     static void transform_matfix_by_clock_moving() {
-        System.out.println("transform_matfix_by_clock_moving");
+        System.out.println("\n transform_matfix_by_clock_moving");
         int N = 5;
 
         int[][] A = new int[N * 2][N * 2];
