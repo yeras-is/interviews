@@ -7,10 +7,12 @@ public class OopLab {
 
     public static void main(String[] args) {
         System.out.println("yeras-is");
+        System.out.println('0'*2);
+/*
         count_is_positive_changed_times();
         hz_not_remember();
         sort_matrix_main_diagonal_asc();
-        transform_matfix_by_clock_moving();
+        transform_matfix_by_clock_moving();*/
     }
 
     static void count_is_positive_changed_times() {
